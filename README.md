@@ -1,6 +1,8 @@
 # ♟️ PawnHub
+> Project Philosophy:<br>
+> <em> " I was completely winning. If I don't kill myself tonight, I'm gonna live a thousand years." — Grandmaster Ivan Sokolov</em>
 
-> Too many blunders, not enough brain cells, so I built an AI to do the suffering for me.
+
 
 ![Status](https://img.shields.io/badge/status-blundering-red)
 ![Elo](https://img.shields.io/badge/Elo-still%20loading...-yellow)
