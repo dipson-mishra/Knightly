@@ -14,7 +14,7 @@ PawnHub is a chess AI project built out of a simple, painful realization: I hang
 
 ## 🎯 Goal
 
-To create my **Temu Magnus Carlsen**: it looks similar from far away, arrives late, and somehow still wins games.
+To create **temu Magnus Carlsen**.
 
 ---
 
