@@ -1,6 +1,6 @@
-# ♟️ PawnHub
+# ♞ Knightly
 > Project Philosophy:<br>
-> <em> " I was completely winning. If I don't kill myself tonight, I'm gonna live a thousand years." — Grandmaster Ivan Sokolov</em>
+> <em> " If I don't kill myself tonight, I'm gonna live a thousand years." — Grandmaster Ivan Sokolov</em>
 
 
 
@@ -12,7 +12,7 @@
 
 ## 📖 About
 
-PawnHub is a chess AI project built out of a simple, painful realization: I hang my queen far too often. Instead of getting better at chess like a normal person, I decided to teach a machine to do it for me.
+Knightly is a chess AI project built out of a simple, painful realization: I hang my queen far too often. Instead of getting better at chess like a normal person, I decided to teach a machine to do it for me.
 
 ## 🎯 Goal
 
@@ -59,8 +59,8 @@ To create **temu Magnus Carlsen**.
 
 ```bash
 # Clone the repository
-git clone https://github.com/dipson-mishra/PawnHub.git
-cd PawnHub
+git clone https://github.com/dipson-mishra/Knightly.git
+cd Knightly
 
 # Install dependencies
 pip install chess ipython
@@ -123,7 +123,7 @@ Pull requests are welcome. Bug reports too, as long as they are not just "it bea
 
 ## ⚠️ Disclaimer
 
-PawnHub is not affiliated with Magnus Carlsen, Stockfish, or anyone's chess rating. Any resemblance to a grandmaster is purely coincidental and probably wishful thinking.
+Knightly is not affiliated with Magnus Carlsen, Stockfish, or anyone's chess rating. Any resemblance to a grandmaster is purely coincidental and probably wishful thinking.
 
 ---
 
