@@ -75,7 +75,7 @@ python main.py
 ## 🎮 Usage
 **Day 1 :**
 
-<img width="520" height="565" alt="image" src="https://github.com/user-attachments/assets/e7aab0e7-8608-4154-ac35-002288f98631" />
+<img width="512" height="556" alt="image" src="https://github.com/user-attachments/assets/0c94802a-9a44-4f19-9bb8-4ef43e560b8b" />
 
 
 ---
