@@ -63,13 +63,6 @@ cd Knightly
 # Install dependencies
 pip install chess ipython
 ```
-
-### Run it
-
-```bash
-python main.py
-```
-
 ---
 
 ## 🎮 Usage
