@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="175f0f9c-fca9-4347-b23b-7d7252bc4048" name="Changes" comment="Creating python script from .ipynb notebook for random choice bot">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v0.2-material.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="dipsonm136@gmail.com" />
+        <option value="Dipson-Mishra" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dipson-mishra&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dipson-mishra/Chess&quot;,
+    &quot;accountId&quot;: &quot;fd4a9738-a1fb-45c3-bb22-dbc2a7f50486&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.3565767499412311" />
+      <entry key="MS500" value="2.8528600325368227" />
+      <entry key="S2" value="4.877722575636767" />
+      <entry key="S5" value="6.9798488702693176" />
+      <entry key="S10" value="8.985912422700352" />
+      <entry key="S30" value="11.331360783010268" />
+      <entry key="S60" value="12.114951044070501" />
+      <entry key="M2" value="12.559150119403423" />
+      <entry key="M5" value="15.447217132120622" />
+      <entry key="M10" value="34.02329196477875" />
+      <entry key="M15" value="59.74972205327054" />
+      <entry key="M30" value="134.64047631694456" />
+      <entry key="H1" value="231.7982868229241" />
+      <entry key="H2" value="317.42247697778276" />
+      <entry key="H4" value="375.67301869236866" />
+      <entry key="D1" value="434.8156039194218" />
+      <entry key="W1" value="446.08659439290443" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="1.4029302576395125E-119" />
+      <entry key="S5" value="2.876169210158466E-48" />
+      <entry key="S10" value="1.6959272431323384E-24" />
+      <entry key="S30" value="1.1935715694671748E-8" />
+      <entry key="S60" value="1.124318064225089E-4" />
+      <entry key="M2" value="0.01226809056094184" />
+      <entry key="M5" value="0.2546195566299149" />
+      <entry key="M10" value="0.8094995160523849" />
+      <entry key="M15" value="1.2859481286287555" />
+      <entry key="M30" value="2.477878651143549" />
+      <entry key="H1" value="4.088037337144785" />
+      <entry key="H2" value="5.593182177214433" />
+      <entry key="H4" value="6.652725413652803" />
+      <entry key="D1" value="7.752087440630534" />
+      <entry key="W1" value="7.963961395870725" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.336047156506944" />
+      <entry key="MS500" value="2.8425836921889895" />
+      <entry key="S2" value="4.872213977915933" />
+      <entry key="S5" value="6.975955075058342" />
+      <entry key="S10" value="8.983115015232555" />
+      <entry key="S30" value="11.330095472814376" />
+      <entry key="S60" value="12.114372580865927" />
+      <entry key="M2" value="12.570837012541338" />
+      <entry key="M5" value="15.697994976458542" />
+      <entry key="M10" value="34.824991674344055" />
+      <entry key="M15" value="61.02624367075824" />
+      <entry key="M30" value="137.1063052417437" />
+      <entry key="H1" value="235.87403636739637" />
+      <entry key="H2" value="323.0062931127487" />
+      <entry key="H4" value="382.3198793314768" />
+      <entry key="D1" value="442.5665047284769" />
+      <entry key="W1" value="454.05038044499355" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3K38IcsAIqyXuMZdTsh1knwaImG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "X:/Chess/scripts",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="X:\Chess\scripts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="X:\Chess" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Chess" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-821f704e66d9-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.9437.214" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="175f0f9c-fca9-4347-b23b-7d7252bc4048" name="Changes" comment="" />
+      <created>1790774813008</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1790774813008</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Created a chessbot. Remark: Significantly weak, because the agent chooses a legal move randomly rather than use a model. Signing off Day 1 !">
+      <option name="closed" value="true" />
+      <created>1790776363358</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1790776363358</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Created a chessbot. Remark: Significantly weak, because the agent chooses a legal move randomly rather than use a model. Signing off Day 1 !">
+      <option name="closed" value="true" />
+      <created>1790778820845</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1790778820845</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Created a chessbot. Remark: Significantly weak, because the agent chooses a legal move randomly rather than use a model. Signing off Day 1 !">
+      <option name="closed" value="true" />
+      <created>1790779028103</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1790779028103</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Created a chessbot. Remark: Significantly weak, because the agent chooses a legal move randomly rather than use a model. Signing off Day 1 !">
+      <option name="closed" value="true" />
+      <created>1790779041039</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1790779041039</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Created a chessbot. Remark: Significantly weak, because the agent chooses a legal move randomly rather than use a model. Signing off Day 1 !">
+      <option name="closed" value="true" />
+      <created>1790779840881</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1790779840881</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Created a chessbot. Remark: Significantly weak, because the agent chooses a legal move randomly rather than use a model. Signing off Day 1 !">
+      <option name="closed" value="true" />
+      <created>1790780341766</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1790780341766</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Created a chessbot. Remark: Significantly weak, because the agent chooses a legal move randomly rather than use a model. Signing off Day 1 !">
+      <option name="closed" value="true" />
+      <created>1790781996304</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1790781996304</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Adding requirements.txt to Knightly">
+      <option name="closed" value="true" />
+      <created>1790863117845</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1790863117845</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Creating python script from .ipynb notebook for random choice bot">
+      <option name="closed" value="true" />
+      <created>1790863146536</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1790863146536</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created a chessbot. Remark: Significantly weak, because the agent chooses a legal move randomly rather than use a model. Signing off Day 1 !" />
+    <MESSAGE value="Adding requirements.txt to Knightly" />
+    <MESSAGE value="Creating python script from .ipynb notebook for random choice bot" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating python script from .ipynb notebook for random choice bot" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/v0.1-random.ipynb</url>
+          <line>9</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

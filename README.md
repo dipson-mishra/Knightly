@@ -78,7 +78,7 @@ python main.py
 **Day 1 :**
 
 <img width="512" height="556" alt="image" src="https://github.com/user-attachments/assets/0c94802a-9a44-4f19-9bb8-4ef43e560b8b" />
-
+![img.png](img.png)
 
 ---
 
