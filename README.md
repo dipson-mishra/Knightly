@@ -78,6 +78,7 @@ python main.py
 <img width="512" height="556" alt="image" src="https://github.com/user-attachments/assets/0c94802a-9a44-4f19-9bb8-4ef43e560b8b" />
 
 **Day 2 :**
+
 <img width="535" height="563" alt="image" src="https://github.com/user-attachments/assets/15589783-2084-4f68-bc8a-d3ae87c57c22" />
 
 
