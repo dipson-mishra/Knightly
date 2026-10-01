@@ -1,5 +1,4 @@
 # ♞ Knightly
-> Project Philosophy:<br>
 > <em> " If I don't kill myself tonight, I'm gonna live a thousand years." — Grandmaster Ivan Sokolov</em>
 
 
@@ -79,6 +78,9 @@ python main.py
 
 <img width="512" height="556" alt="image" src="https://github.com/user-attachments/assets/0c94802a-9a44-4f19-9bb8-4ef43e560b8b" />
 
+**Day 2 :**
+<img width="535" height="563" alt="image" src="https://github.com/user-attachments/assets/15589783-2084-4f68-bc8a-d3ae87c57c22" />
+
 
 ---
 
@@ -96,12 +98,15 @@ python main.py
 | Day | Progress | Status |
 |-----|----------|--------|
 | 1 | Built a random-move bot using `random`, `python-chess`, and IPython. Picks a random move from the legal moves list. | Significantly weak |
+| 2 | Built a bot using `tensorflow`, `python-chess`, and IPython. We calculate material for each move and take best move according to material evaluation. | Significantly weak |
+
 
 ---
 
 ## 🗺️ Roadmap
 
-- [x] Day 1: make the bot play legal moves (it does, badly)
+- [x] Day 1: make the bot play legal moves (it does, legal yet bad moves)
+- [x] Day 2: make the bot play best moves based on material evaluation (it does work better than day 1, since it's not a lottery regarding move and actually evaluates, but there's a long way to go before satisfactory results)
 - [ ] Get the engine to stop hanging its own queen
 - [ ] Beat a random-move bot consistently
 - [ ] Beat me
