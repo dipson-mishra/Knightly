@@ -39,7 +39,6 @@ To create **temu Magnus Carlsen**.
 |------|-------|
 | Language | Python |
 | Chess logic | `python-chess` |
-| Move selection | `random` (for now) |
 | Environment | IPython / Jupyter |
 | AI / ML | `TODO` |
 | Interface | IPython board display (for now) |
