@@ -1,6 +1,6 @@
 # ♞ Knightly
-> <em> " If I don't kill myself tonight, I'm gonna live a thousand years." — Grandmaster Ivan Sokolov</em>
-
+> *"If I don't kill myself tonight, I'm gonna live a thousand years."* 
+> — **Grandmaster Ivan Sokolov**
 
 
 ![Status](https://img.shields.io/badge/status-blundering-red)
@@ -40,7 +40,7 @@ To create **temu Magnus Carlsen**.
 | Language | Python |
 | Chess logic | `python-chess` |
 | Environment | IPython / Jupyter |
-| AI / ML | `TODO` |
+| AI / ML | `Tensorflow`                    |
 | Interface | IPython board display (for now) |
 
 ---
@@ -80,9 +80,9 @@ pip install chess ipython
 ## 🧠 How It Works
 
 1. **Board representation**: handled by `python-chess`
-2. **Evaluation**: none yet (the bot has no opinions)
+2. **Evaluation**: material
 3. **Search / learning**: none yet
-4. **Move selection**: `random.choice()` over the list of legal moves
+4. **Move selection**: `material evaluation` over the list of legal moves
 
 ---
 
