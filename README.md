@@ -21,7 +21,7 @@ Knightly is a chess AI project built out of a simple, painful realization: I han
 
 ## Goal
 
-To create **Temu Magnus Carlsen**: not the real thing, but it looks similar from far away and occasionally wins games.
+To create **Temu Magnus Carlsen**
 
 ---
 
