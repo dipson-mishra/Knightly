@@ -32,7 +32,7 @@ def encode_board(board):
 print("Starting board shape:", encode_board(chess.Board()).shape)
 
 # Load data
-train_df = pd.read_csv('train.csv', index_col='id')
+train_df = pd.read_csv('data/raw/train.csv', index_col='id')
 
 # We'll only use the first 10000 examples so things run fast,
 # but you'll get better performance if you remove this line
