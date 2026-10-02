@@ -1,2 +1,5 @@
-chess~=1.11.2
-ipython~=9.17.1
+chess
+ipython
+tensorflow
+numpy
+pandas
