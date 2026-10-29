@@ -150,9 +150,10 @@ jupyter notebook
    - `notebooks/v0.3-minmax-eval.ipynb`
 
 
-| Day 1: Random bot | Day 2: Material bot |
-|:---:|:---:|
-| <img width="320" alt="Day 1 board: random move bot" src="https://github.com/user-attachments/assets/0c94802a-9a44-4f19-9bb8-4ef43e560b8b"> | <img width="320" alt="Day 2 board: material evaluation bot" src="https://github.com/user-attachments/assets/15589783-2084-4f68-bc8a-d3ae87c57c22"> |
+| Day 1: Random bot | Day 2: Material bot | Day 3: Min-Max Evaluation bot
+|:---:|:---:|:---:|
+| <img width="320" alt="Day 1 board: random move bot" src="https://github.com/user-attachments/assets/0c94802a-9a44-4f19-9bb8-4ef43e560b8b"> | <img width="320" alt="Day 2 board: material evaluation bot" src="https://github.com/user-attachments/assets/15589783-2084-4f68-bc8a-d3ae87c57c22"> <img width="545" height="631" alt="image" src="https://github.com/user-attachments/assets/56ba70da-e800-46d3-9e93-146362fc08a4" />
+
 
 To explore the notebooks, start Jupyter from the repository root:
 
