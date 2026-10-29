@@ -1,7 +1,7 @@
 <h1 align="center">♞ Knightly</h1>
 
 <p align="center">
-  <i>Too many blunders, not enough brain cells, so I built an AI to do the suffering for me.</i>
+  <i>Too many blunders, not enough brain cells, so I am building an AI to do the suffering for me.</i>
 </p>
 
 <p align="center">
