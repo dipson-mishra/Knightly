@@ -30,7 +30,7 @@ To create **Temu Magnus Carlsen**
 - [x] Legal move generation and full rule handling via `python-chess` (castling, en passant, promotion)
 - [x] Random move bot (Day 1)
 - [x] Basic position evaluation using material count (Day 2)
-- [ ] Move search (minimax / alpha-beta pruning)
+- [x] Material evaluation with minimax and alpha-beta pruning (Day 3)
 - [ ] Play against the AI interactively
 - [ ] Difficulty levels, from "Temu Beginner" to "Temu Magnus"
 - [ ] Game history and move logging (PGN support)
@@ -44,7 +44,7 @@ To create **Temu Magnus Carlsen**
 |------|-------|
 | Language | Python |
 | Chess logic | `python-chess` |
-| AI / ML | `TensorFlow` |
+| AI / ML | Material evaluation, minimax, alpha-beta pruning; `TensorFlow` in the Day 2 experiment |
 | Environment | IPython / Jupyter |
 | Interface | IPython board display (for now) |
 
@@ -85,13 +85,15 @@ Knightly/
 │   └── processed/
 ├── notebooks/
 │   ├── v0.1-random.ipynb
-│   └── v0.2-material.ipynb
+│   ├── v0.2-material.ipynb
+│   └── v0.3-minmax-eval.ipynb
 ├── src/
 │   ├── __init__.py
 │   ├── models/
 │   │   ├── __init__.py
 │   │   ├── v0.1-random.py
-│   │   └── v0.2-material.py
+│   │   ├── v0.2-material.py
+│   │   └── v0.3-minmax-eval.py
 │   ├── data/
 │   │   └── __init__.py
 │   └── evaluation/
@@ -124,6 +126,14 @@ Run from the repository root so relative paths resolve correctly:
 ```bash
 python src/models/v0.1-random.py
 python src/models/v0.2-material.py
+python src/models/v0.3-minmax-eval.py
+```
+
+The minimax bot plays Black against a human as White. Set the search depth with
+`--depth` (default: 3):
+
+```bash
+python src/models/v0.3-minmax-eval.py --depth 4
 ```
 
 ## Running Notebooks
@@ -137,6 +147,7 @@ jupyter notebook
 2. Open notebooks in `notebooks/`:
    - `notebooks/v0.1-random.ipynb`
    - `notebooks/v0.2-material.ipynb`
+   - `notebooks/v0.3-minmax-eval.ipynb`
 
 
 | Day 1: Random bot | Day 2: Material bot |
@@ -149,16 +160,16 @@ To explore the notebooks, start Jupyter from the repository root:
 jupyter notebook
 ```
 
-Then open `notebooks/v0.1-random.ipynb` or `notebooks/v0.2-material.ipynb`.
+Then open any notebook in `notebooks/`, including `notebooks/v0.3-minmax-eval.ipynb`.
 
 ---
 
 ## How It Works
 
 1. **Board representation**: handled by `python-chess`
-2. **Evaluation**: material count (pawn = 1, knight/bishop = 3, rook = 5, queen = 9)
-3. **Search / learning**: none yet
-4. **Move selection**: scores every legal move by the resulting material balance and plays the highest
+2. **Evaluation**: material balance from White's perspective (pawn = 100, knight = 320, bishop = 330, rook = 500, queen = 900)
+3. **Search**: minimax explores possible moves to a configurable depth; alpha-beta pruning skips branches that cannot change the result
+4. **Move selection**: the AI plays Black and chooses a move that minimizes White's evaluation
 
 ---
 
@@ -168,6 +179,7 @@ Then open `notebooks/v0.1-random.ipynb` or `notebooks/v0.2-material.ipynb`.
 |-----|----------|--------|
 | 1 | Built a random-move bot using `random`, `python-chess`, and IPython. It picks any move from the legal moves list. | Significantly weak |
 | 2 | Built a material-evaluation bot using `tensorflow`, `python-chess`, and IPython. It calculates material for each legal move and plays the best one. | Weak, but no longer a lottery |
+| 3 | Added material-based minimax with alpha-beta pruning and a configurable search depth. | Thinking several moves ahead |
 
 ---
 
@@ -175,7 +187,7 @@ Then open `notebooks/v0.1-random.ipynb` or `notebooks/v0.2-material.ipynb`.
 
 - [x] Day 1: play legal moves (legal, but bad)
 - [x] Day 2: play moves chosen by material evaluation (better than a lottery, but far from good)
-- [ ] Day 3: add lookahead search (minimax)
+- [x] Day 3: add lookahead search (minimax with alpha-beta pruning)
 - [ ] Get the engine to stop hanging its own queen
 - [ ] Beat a random-move bot consistently
 - [ ] Beat me
